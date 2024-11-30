@@ -1,0 +1,94 @@
+body {
+    background-color: #4c35e0
+}
+.titulo1 {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: flex;
+    justify-content: center;
+    color: #9f76ff
+}
+.titulo2 {
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: flex;
+    justify-content: center;
+    color: aliceblue
+}
+.cont-targeta {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    display: flex;       /* Las cajas estarán en columna (vertical) */
+    justify-content: center;        /* Centra las cajas verticalmente */
+    gap: 20px;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 80%;
+}
+.targeta {
+    background-color: #ffff;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(29, 21, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    padding: 70px;
+}
+.targeta.targeta-cent {
+    height: 360px; /* Altura más grande */
+}
+.targeta {
+    height: 310px;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.mover {
+    margin-top: 50px;
+}
+.mover2 {
+    margin-top: -70px;
+}
+.most-popular {
+    background-color: #ffe4d4;
+    color: #2200ff;
+    padding: 10px;
+    margin-top: -70px;
+}
+.emogin {
+    font-size: 50px;
+}
+.starte-team {
+    color: rgb(218, 214, 16);
+    font-size: 40px;
+    margin: 0;
+    margin-top: -30px;
+}
+.precio {
+    color: #4c35e0;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 15px;
+}
+.no-setup{
+    color: rgb(173, 173, 173);
+    font-size: 17px;
+}
+.cent-getstarte {
+    color: aliceblue;
+    background-color: #4c35e0;
+    border: none;
+    padding: 10px;
+    width: 140px;
+    margin-top: 13px;
+}
+.enlace {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+  
